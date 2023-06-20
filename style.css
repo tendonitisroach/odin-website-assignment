@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+    margin: 0% ;
+    font-family: "Roboto Mono", monospace;
+}
+
+.topnav {
+    display: flex;
+    margin: 0%;
+    padding: 0% 20%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C2F33;
+    color: white;
+}
+
+.topnav, a {
+    text-decoration: none;
+    color: white;
+}
+
+.makise {
+    height: 100px;
+}
+
+.makise-kurisu {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+    padding: 10% 20%;
+    background-color: #2C2F33;
+    color: white;
+    gap: 30px;
+}
+
+#info {
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+    font-size: large;
+}
+
+.anchor {
+    display: flex;
+    gap: 30px;
+}
+
+.head-text {
+    margin: auto;
+    width: 50%;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0%;
+}
+
+.gif img {
+    width: 80%;
+    height:80%;
+    border: solid 5px #8C3741;
+    border-radius: 10px;
+    flex: auto;
+    
+}
+
+section, #best {
+    text-align: center;
+    
+}
+
+section {
+    margin: 0%;
+    padding: 5% 20%
+    
+}
+
+.quote {
+    display: flex;
+    background-color: #D3D3D3;
+    padding: 10%;
+    justify-content: center;
+    
+}
+
+#whatever {
+    padding: 0%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    color: white;
+    background-color: #2C2F33;
+}
